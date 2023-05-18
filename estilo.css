@@ -1,0 +1,57 @@
+/* estilos.css */
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+header h2 {
+  font-size: 25px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 5rem auto;
+  gap: 10px;
+}
+
+header {
+  padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+  }
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-right: 10px;
+
+}
+
+nav {
+  grid-column: span 3;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+}
+
+aside {
+  padding: 20px;
+}
+
+aside ul li {
+    padding: 1rem
+}
