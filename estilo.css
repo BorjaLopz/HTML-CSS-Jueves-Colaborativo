@@ -55,3 +55,13 @@ aside {
 aside ul li {
     padding: 1rem
 }
+
+button {
+
+  border: none;
+  background-color: darkslateblue;
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  cursor: pointer;
+}
